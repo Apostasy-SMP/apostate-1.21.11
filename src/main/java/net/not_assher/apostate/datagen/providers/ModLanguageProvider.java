@@ -7,7 +7,6 @@ import net.minecraft.registry.RegistryWrapper;
 import net.not_assher.apostate.core.index.ModBlocks;
 import net.not_assher.apostate.core.index.ModItems;
 import net.not_assher.apostate.core.index.data.ModDamageTypes;
-import net.not_assher.apostate.core.index.data.ModEnchantments;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -80,13 +79,6 @@ public class ModLanguageProvider extends FabricLanguageProvider {
                 translationBuilder,
                 ModDamageTypes.VOWBREAK,
                 "%1$s entered a fate they shouldn't have touched"
-        );
-
-        DataUtils.registerEnchantment(
-                translationBuilder,
-                ModEnchantments.LASSO,
-                "Lasso",
-                "Will ensnare enemies hit by the projectile, pulling them towards the source at great speeds."
         );
     }
 }

@@ -1,8 +1,0 @@
-// 1.21.11	-999999999-01-01T00:00:00	Apostate/Tags for minecraft:enchantment
-dd0924b7092151114ad65580b8ddd4efce3a104b data/apostate/tags/enchantment/lasso_exclusive.json
-ad4439baff9f54b03eac25d1985031a0de3a854a data/minecraft/tags/enchantment/exclusive_set/crossbow.json
-ad4439baff9f54b03eac25d1985031a0de3a854a data/minecraft/tags/enchantment/in_enchanting_table.json
-ad4439baff9f54b03eac25d1985031a0de3a854a data/minecraft/tags/enchantment/non_treasure.json
-ad4439baff9f54b03eac25d1985031a0de3a854a data/minecraft/tags/enchantment/on_random_loot.json
-ad4439baff9f54b03eac25d1985031a0de3a854a data/minecraft/tags/enchantment/on_traded_equipment.json
-ad4439baff9f54b03eac25d1985031a0de3a854a data/minecraft/tags/enchantment/tradeable.json

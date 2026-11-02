@@ -51,8 +51,6 @@
   "custom": {
     "cardinal-components": [
       "apostate:player",
-      "apostate:lasso",
-      "apostate:lasso_projectile",
       "apostate:vowbreak"
     ]
   }

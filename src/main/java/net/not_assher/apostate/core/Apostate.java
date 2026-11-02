@@ -50,7 +50,6 @@ public class Apostate implements ModInitializer {
         ModComponentTypes.init();
         ModItemGroups.init();
         ModCriterions.init();
-        ModEnchantmentEffects.init();
         ModBlocks.init();
         ModBlockEntityTypes.init();
 

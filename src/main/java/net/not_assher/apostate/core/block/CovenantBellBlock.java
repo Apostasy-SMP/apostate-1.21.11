@@ -5,7 +5,9 @@ import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityTicker;
 import net.minecraft.block.entity.BlockEntityType;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemPlacementContext;
+import net.minecraft.item.Items;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
@@ -57,6 +59,9 @@ public class CovenantBellBlock extends BlockWithEntity implements LightEmitter {
         return ((world1, pos, state1, blockEntity) -> {
             if (blockEntity instanceof CovenantBellBlockEntity bell) {
                 bell.tick(world1, pos, state1, bell);
+
+                if (bell.getPactStack().isEmpty())
+                    return;
 
                 if (bell.getPactStack() != null) {
                     if (!world1.getBlockState(pos).get(HAS_STACK)) {

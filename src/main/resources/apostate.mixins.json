@@ -4,11 +4,9 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "AnvilBlockMixin",
-    "CrossbowItemMixin",
     "DamageTrackerMixin",
     "LivingEntityMixin",
     "MobEntityMixin",
-    "PersistentProjectileEntityMixin",
     "PlayerEntityMixin",
     "ServerPlayerEntityMixin",
     "WrittenBookItemMixin",

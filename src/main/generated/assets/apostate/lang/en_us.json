@@ -41,8 +41,6 @@
   "death.attack.vow": "%1$s entered a fate they shouldn't have touched",
   "death.attack.vow.item": "%1$s entered a fate they shouldn't have touched",
   "death.attack.vow.player": "%1$s entered a fate they shouldn't have touched",
-  "enchantment.apostate.lasso": "Lasso",
-  "enchantment.apostate.lasso.desc": "Will ensnare enemies hit by the projectile, pulling them towards the source at great speeds.",
   "item.apostate.bounty_book": "Bounty Book",
   "item.apostate.bounty_poster": "Bounty Poster",
   "item.apostate.bounty_poster.0": "%s is wanted by %s, ",

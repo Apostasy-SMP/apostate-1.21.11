@@ -1,9 +1,5 @@
 package net.not_assher.apostate.core.cca;
 
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.projectile.ProjectileEntity;
-import net.not_assher.apostate.core.cca.entity.LassoComponent;
-import net.not_assher.apostate.core.cca.entity.LassoProjectileComponent;
 import net.not_assher.apostate.core.cca.entity.PlayerComponent;
 import net.not_assher.apostate.core.cca.entity.VowbreakComponent;
 import org.ladysnake.cca.api.v3.entity.EntityComponentFactoryRegistry;
@@ -26,15 +22,5 @@ public class ModCCA implements EntityComponentInitializer {
                 VowbreakComponent::new,
                 RespawnCopyStrategy.NEVER_COPY
         );
-
-        cca.beginRegistration(
-                LivingEntity.class,
-                LassoComponent.KEY
-        ).respawnStrategy(RespawnCopyStrategy.NEVER_COPY).end(LassoComponent::new);
-
-        cca.beginRegistration(
-                ProjectileEntity.class,
-                LassoProjectileComponent.KEY
-        ).respawnStrategy(RespawnCopyStrategy.NEVER_COPY).end(LassoProjectileComponent::new);
     }
 }
